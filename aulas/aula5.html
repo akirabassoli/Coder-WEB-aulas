@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5</title>
+</head>
+
+<body>
+    <a href="https://www.coderhouse.com.br/" target="_blank">
+        <img src="Imagens/logo.png" alt="logotipo coder">
+    </a>
+
+    <div>
+        <div>
+            <a href="contatos.html">Contatos</a>
+            <a href="Imagens/logo.png">Logo</a>
+            <a href="www.google.com">Google</a>
+            <br>
+
+            <!-- link relativo, com o clique vai até um ponto específico da página -->
+            <a href="#tabela">Tabela</a>
+            <!-- deve ser colocado um ID no item que deseja ser o target -->
+            <br>
+
+            <!-- tb é possível referenciar um ponto específico em outra página -->
+            <a href="contatos.html#tabela">Tabela outra página</a>
+
+
+        </div>
+        <br><br>
+
+        <form>
+
+            <fieldset>
+                <legend>Informações pessoais</legend>
+                <label>Gênero:</label>
+                <br>
+                <label>masculino</label>
+                <input type="radio" name="genero" value="masculino" />
+
+                <label>feminino</label>
+                <input type="radio" name="genero" value="feminino" />
+
+                <label>outro</label>
+                <input type="radio" name="genero" value="outro" />
+                <!-- para que seja possível escolher apenas uma das opç ões, o name deve ser o mesmo para todos -->
+
+                <br><br>
+
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome">
+                <br>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome">
+
+                <br><br>
+
+                <span>Tamanho:</span>
+                <select name="tamanhos">
+                    <option value="G">Grande</option>
+                    <option value="M">Médio</option>
+                    <option value="P">Pequeno</option>
+                </select>
+
+                <br><br>
+                <button type="submit">Enviar</button>
+
+
+            </fieldset>
+
+            <br><br>
+            <input type="password">
+            <br><br>
+
+            <textarea></textarea>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            <button type="button">Botão</button>
+            <!-- o tipo SUBMIT envia as informações para a url da propriedade action -->
+            <!-- o tipo RESET apaga tudo que tinha no formulário -->
+            <!-- o tipo BUTTON não tem ação padrão -->
+
+            <br><br>
+
+
+            <span>Aceita termos e condições</span>
+            <input type="checkbox" name="acepta" value="1" />
+
+            <br><br>
+
+            <select name="tamanhos">
+                <option value="G">Grande</option>
+                <option value="M">Médio</option>
+                <option value="P">Pequeno</option>
+            </select>
+
+        </form>
+    </div>
+    <br>
+    <hr>
+
+    <div>
+        <table id="tabela" border>
+            <th>Frutas</th>
+            <th>Verduras</th>
+            <th>Grãos</th>
+            <tr>
+                <td>Maçã</td>
+                <td>Alface</td>
+                <td>Amendoim</td>
+            </tr>
+            <tr>
+                <td>Laranja</td>
+                <td>Beterraba</td>
+                <td>Trigo</td>
+            </tr>
+
+
+        </table>
+    </div>
+    <br>
+    <hr>
+
+    <div>
+        <ul>
+            <li>Linguagens de programação:
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </li>
+            <li>Linguagens de marcação:
+                <ul>
+                    <li>
+                        HTML
+                        <ul>
+                            <li>Tags</li>
+                        </ul>
+                    </li>
+                    <li>XML</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <br><br>
+    <hr>
+
+    <div>
+
+        <h1>Receita de Strogonoff</h1>
+
+        <h2>Ingredientes</h2>
+
+        <ul>
+            <li>3 peitos de frango</li>
+            <li>1 dente de alho picado</li>
+            <li>sal e pimenta a gosto</li>
+            <li>1 cebola picada</li>
+            <li>1 colher de manteiga</li>
+            <li>2 colheres de sopa de maionese</li>
+            <li>Catchup e mostarda</li>
+            <li>Cogumelos</li>
+            <li>1 lata de creme de leite</li>
+
+        </ul>
+        <h2>Modo de preparo:</h2>
+        <ol>
+            <li>Em uma panela, misture o frango, o alho, a maionese, o sal e a pimenta.</li>
+            <li>Em uma frigideira grande, derreta a manteiga e doure a cebola.</li>
+            <li>Junte o frango temperado até que esteja dourado.</li>
+            <li>Adicione os cogumelos, o ketchup e a mostarda.</li>
+            <li>Incorpore o creme de leite e retire do fogo antes de ferver.</li>
+            <li>Sirva com arroz branco e batata palha.</li>
+
+        </ol>
+    </div>
+
+    <iframe width="657" height="360" src="https://www.youtube.com/embed/owQCMusObFk"
+        title="CIVIC HÍBRIDO X NOVO JETTA GLI X BMW 320I! Qual sedã leva a melhor na Volta Rápida?" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+
+
+
+</body>
+
+</html>
