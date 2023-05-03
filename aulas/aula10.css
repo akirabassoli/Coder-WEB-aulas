@@ -1,0 +1,26 @@
+.awesome {
+    background-color: cornflowerblue;
+    border: solid 2px black;
+    color: white;
+    display: inline-block;
+    font-size: 32px;
+    font-family: arial;
+
+    width: 100px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.paragrafo {
+    background-color: aqua;
+    font-size: 32px;
+    font-family: arial;
+
+    width: 450px;
+    height: 300px;
+    overflow: auto;
+    border: dotted 5px black;
+    margin: 5px 8px;
+    padding: 6px 9px;
+    border-radius: 20px;
+}
