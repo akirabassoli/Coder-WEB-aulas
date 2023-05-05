@@ -1,0 +1,73 @@
+body {
+    background: rgb(170, 210, 243);
+}
+
+.titulo {
+    color: rgb(96, 7, 155);
+}
+
+.titulo:hover {
+    color: blueviolet;
+    background-color: cornflowerblue;
+}
+
+.link:visited {
+    color: red;
+}
+
+.link:active {
+    color: green;
+}
+
+#texto:focus {
+    background-color: chartreuse;
+}
+
+.lista:nth-child(2n) {
+    background-color: cornflowerblue;
+}
+
+.lista2:nth-child(even) {
+    background-color: rgb(148, 8, 212);
+}
+
+.lista2:nth-child(odd) {
+    background-color: rgb(85, 204, 148);
+}
+
+p:first-of-type {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+option:checked {
+    background-color: chartreuse;
+}
+
+input[type="checkbox"]:checked {
+    margin-left: 40px;
+}
+
+input[type="radio"]:checked {
+    margin-left: 20px;
+    accent-color: rgb(128, 78, 168);
+}
+
+input[type="email"]:valid {
+    background: rgb(130, 252, 130);
+}
+
+.paragrafo-elemento::after {
+    content: "Final";
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.paragrafo-elemento::first-letter {
+    font-size: 50px;
+}
+
+.paragrafo-elemento::first-line {
+    font-style: none;
+}
