@@ -1,0 +1,92 @@
+* {}
+
+.quadrado {
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+}
+
+.gradiente {
+    background-image: linear-gradient(rgb(0, 174, 255), green, yellow);
+}
+
+.direita {
+    background-image: linear-gradient(to right, black, white);
+}
+
+.translate {
+    transform: translate(100px, 50px)
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
+
+.skew {
+    transform: skew(30deg)
+}
+
+.transition {
+    transition: all 2s;
+}
+
+.transition:hover {
+    transform: rotate(360deg);
+    background-color: rgb(4, 126, 126);
+}
+
+.transition2 {
+    transition: transform 2s;
+}
+
+.transition2:hover {
+    transform: rotateY(360deg);
+}
+
+.caixa-vermelha {
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: solid 1px black;
+    transition: transform 1s;
+}
+
+.caixa-vermelha:hover {
+    transform: skewY(25deg);
+}
+
+#animar {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {
+        color: aqua;
+    }
+
+    50% {
+        color: rgb(192, 30, 179);
+    }
+
+    100% {
+        color: aqua;
+    }
+}
+
+.girando {
+    animation-duration: 4s;
+    animation-name: girando;
+    animation-iteration-count: infinite;
+}
+
+@keyframes girando {
+    from {}
+
+    to {
+        transform: rotate(360deg)
+    }
+}
