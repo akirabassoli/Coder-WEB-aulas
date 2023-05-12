@@ -1,0 +1,45 @@
+#container {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px red;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: dotted 2px black;
+    margin: 5px;
+}
+
+.item-1 {
+    background-color: greenyellow;
+}
+
+.item-2 {
+    background-color: aqua;
+}
+
+.item-3 {
+    background-color: yellow;
+}
+
+.item-4 {
+    background-color: palevioletred;
+}
+
+.item-5 {
+    background-color: purple;
+}
+
+#container-2 {
+    height: 600px;
+    border: solid 2px black;
+
+}
