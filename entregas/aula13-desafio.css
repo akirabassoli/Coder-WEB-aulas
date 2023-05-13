@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1.5px rgb(236, 234, 234);
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.header-nav {
+    background-color: rgb(20, 20, 20);
+    border-radius: 8px;
+    Width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+
+}
+
+.header-nav li {
+    list-style: none;
+    padding: 0 30px;
+    margin: 5px 0;
+    border-right: solid 1.5px rgb(236, 234, 234);
+}
+
+.header-nav li:last-child {
+    border: none;
+}
+
+nav ul li a {
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+div.principal {
+    width: 80%;
+}
+
+.noticia-capa {
+    display: flex;
+}
+
+.noticia-capa img {
+    max-width: 600px;
+    margin: 15px 15px 0 15px;
+}
+
+.legenda-foto {
+    font-size: 10px;
+    margin: 0 15px;
+    text-align: justify;
+}
+
+.tema-sessão {
+    color: red;
+    margin-bottom: 5px;
+}
+
+.noticia-capa article {
+    margin: 15px;
+}
+
+aside {
+    width: 20%;
+    border-left: solid 1.5px rgb(236, 234, 234);
+    margin-top: 15px;
+}
