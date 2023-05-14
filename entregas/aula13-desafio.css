@@ -30,7 +30,7 @@ header {
 .header-nav {
     background-color: rgb(20, 20, 20);
     border-radius: 8px;
-    Width: 80%;
+    Width: 90%;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -64,28 +64,44 @@ main {
     display: flex;
 }
 
-div.principal {
+.principal {
     width: 80%;
+    padding: 10px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+p {
+    text-align: justify;
 }
 
 .noticia-capa {
     display: flex;
+    border-bottom: solid 1.5px rgb(236, 234, 234);
+    margin-right: 15px;
+
 }
 
+.noticia-capa div {}
+
 .noticia-capa img {
-    max-width: 600px;
-    margin: 15px 15px 0 15px;
+    width: 90%;
+    min-width: 400px;
+    margin: 15px 0 5px 15px;
 }
 
 .legenda-foto {
     font-size: 10px;
-    margin: 0 15px;
+    margin: 0 40px 10px 15px;
     text-align: justify;
 }
 
 .tema-sessão {
     color: red;
     margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 .noticia-capa article {
@@ -96,4 +112,72 @@ aside {
     width: 20%;
     border-left: solid 1.5px rgb(236, 234, 234);
     margin-top: 15px;
+    padding-left: 10px;
+
+}
+
+aside h3 {
+    color: red;
+    padding: 10px 0;
+}
+
+.mais-lidas {
+    margin-left: 25px;
+}
+
+.mais-lidas li {
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.mais-lidas li a {
+    color: black;
+    font-weight: normal;
+}
+
+.noticia-secundaria {
+    padding: 15px;
+
+}
+
+.manchete {
+    display: flex;
+
+    border-bottom: solid 1.5px rgb(236, 234, 234);
+    height: auto;
+    padding: 10px 0;
+}
+
+.manchete:last-child {
+    border: none;
+}
+
+.manchete-img {
+
+    padding-right: 15px;
+    width: 250px
+}
+
+.manchete-img img {
+    width: 200px;
+    max-height: 120px;
+    margin-top: 20px;
+
+}
+
+.manchete-texto {
+    padding: 10px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-top: solid 1.5px rgb(236, 234, 234);
+    font-size: 12px;
+    background-color: black;
+    color: white;
 }
