@@ -1,0 +1,129 @@
+.grid {
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 3fr 1fr; */
+
+    grid-template-columns: 100px auto 300px;
+    grid-template-rows: ;
+}
+
+/* 
+#grade {
+    display: grid;
+    grid-template-columns: 20% auto 15%;
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-areas:
+        "nav header header"
+        "nav produtos publicidade"
+        "nav servicos publicidade"
+        "nav footer footer"
+    ;
+} */
+
+/* header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+section#produtos {
+    grid-area: produtos;
+}
+
+section#servicos {
+    grid-area: servicos;
+}
+
+nav {
+    grid-area: nav;
+}
+
+aside {
+    grid-area: publicidade;
+}
+--------------------------------------------------------------------------
+*/
+.border {
+    border: solid 2px black;
+}
+
+/* 
+#grade2 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100px 500px 100px;
+    grid-template-areas:
+        "header2 header2"
+        "nav2 conteudo"
+        "nav2 footer2"
+    ;
+}
+
+header {
+    grid-area: header2;
+    background-color: pink;
+}
+
+nav {
+    grid-area: nav2;
+    background-color: greenyellow;
+}
+
+main {
+    grid-area: conteudo;
+    background-color: orange;
+}
+
+footer {
+    grid-area: footer2;
+    background-color: aqua;
+}
+
+----------------------------------------------------------------------------  */
+#grade3 {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 5px;
+    grid-template-areas:
+        "verde verde azul azul azul"
+        "verde verde laranja laranja amarelo"
+        "vinho vinho laranja laranja roxo"
+    ;
+}
+
+.azul {
+    grid-area: azul;
+    background-color: aqua;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.amarelo {
+    grid-area: amarelo;
+    background-color: rgb(228, 214, 15);
+}
+
+.verde {
+    grid-area: verde;
+    background-color: yellowgreen;
+}
+
+.vinho {
+    grid-area: vinho;
+    background-color: rgb(138, 3, 25);
+}
+
+.roxo {
+    grid-area: roxo;
+    background-color: rgb(87, 12, 156);
+}
+
+.laranja {
+    grid-area: laranja;
+    background-color: orange;
+}
