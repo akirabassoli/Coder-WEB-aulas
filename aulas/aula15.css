@@ -1,0 +1,108 @@
+/* .container {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: repeat(6, 100px);
+    gap: 10px;
+    grid-template-areas:
+        "box1 box1 box1"
+        "box2 box3 box4"
+        ". box5 ."
+    ;
+}
+
+.box-1 {
+    grid-area: box1;
+    background-color: red;
+}
+
+.box-2 {
+    grid-area: box2;
+    background-color: blueviolet;
+}
+
+.box-3 {
+    grid-area: box3;
+    background-color: green;
+}
+
+.box-4 {
+    grid-area: box4;
+    background-color: yellow;
+}
+
+.box-5 {
+    grid-area: box5;
+    background-color: lightgray;
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "box2 box2 box1 box1"
+            "box2 box2 box3 box3"
+            "box4 box5 box5."
+        ;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "box1 box1 box1"
+            "box2 box2 box2"
+            "box3 box3 box4"
+            "box5 box5 box5"
+        ;
+    }
+} */
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    grid-template-areas:
+        "header header header"
+        "conteudo conteudo sidebar"
+        "conteudo conteudo sidebar"
+    ;
+}
+
+.container div {
+    font-size: 30px;
+    color: gray;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+.content {
+    grid-area: conteudo;
+    background-color: rgb(233, 96, 114);
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(179, 255, 0);
+}
+
+@media screen and (max-width:900px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 100px);
+        grid-template-areas:
+            "header"
+            "conteudo"
+            "conteudo"
+            "sidebar"
+        ;
