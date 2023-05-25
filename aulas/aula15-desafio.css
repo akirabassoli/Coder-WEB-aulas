@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 250px 100px 100px 100px 100px;
+    grid-template-areas:
+        "header"
+        "conteudo"
+        "signUp"
+        "feature1"
+        "feature2"
+        "feature3"
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(120, 166, 236);
+}
+
+.conteudo {
+    grid-area: conteudo;
+    background-color: lightgray;
+}
+
+.signUp {
+    grid-area: signUp;
+    background-color: lightskyblue;
+}
+
+.feature1 {
+    grid-area: feature1;
+    background-color: rgb(252, 192, 62);
+}
+
+.feature2 {
+    grid-area: feature2;
+    background-color: rgb(245, 106, 88);
+}
+
+.feature3 {
+    grid-area: feature3;
+    background-color: rgb(182, 145, 243);
+}
