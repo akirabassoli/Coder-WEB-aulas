@@ -60,7 +60,7 @@ let num2 = document.getElementById("input2")
 
 
 function somar() {
-    result = parseFloat(num1.value) + parseFloat(num2.value);
+    let result = parseFloat(num1.value) + parseFloat(num2.value);
 
     calc_resultado.append(result)
 }
